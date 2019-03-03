@@ -2,7 +2,7 @@ def solve(xyz,K,F): #dataset,K,F
     
 	words = [""]
 	f = open("vocab."+xyz+".txt","r")
-	for w in (f.read().split()):#this loop add all the words in vocab to list 
+	for w in (f.read().split()):#this loop will add all the words in vocab to list 
 	    words.append(str(w))
 	f.close()
 	f2 = open("docword."+xyz+".txt","r")#for reading the no. of docs,words,entries and wid that appears in particular docid
